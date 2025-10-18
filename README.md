@@ -1,1 +1,3 @@
-A C++ project that simulates CPU scheduling using multithreading. It supports Round Robin and Priority algorithms, logs task execution in real time, and measures average waiting and turnaround times to analyze scheduling performance.
+# Multithreaded Task Scheduler
+
+A C++ project that simulates how an operating system schedules processes across multiple threads. It implements both **Round Robin** and **Priority Scheduling** algorithms to demonstrate how CPU time is shared between concurrent tasks.
