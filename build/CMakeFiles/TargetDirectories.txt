@@ -1,0 +1,3 @@
+D:/github/Multithreaded-Task-Scheduler/build/CMakeFiles/mtscheduler.dir
+D:/github/Multithreaded-Task-Scheduler/build/CMakeFiles/ALL_BUILD.dir
+D:/github/Multithreaded-Task-Scheduler/build/CMakeFiles/ZERO_CHECK.dir

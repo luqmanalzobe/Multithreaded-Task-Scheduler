@@ -1,0 +1,10 @@
+^D:\GITHUB\MULTITHREADED-TASK-SCHEDULER\BUILD\CMAKEFILES\56E6C4E1849C78201E054FB8F2B4ADB4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/github/Multithreaded-Task-Scheduler -BD:/github/Multithreaded-Task-Scheduler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/github/Multithreaded-Task-Scheduler/build/MTScheduler.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/github/Multithreaded-Task-Scheduler/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

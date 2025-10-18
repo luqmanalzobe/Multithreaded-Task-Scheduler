@@ -1,0 +1,10 @@
+^D:\GITHUB\MULTITHREADED-TASK-SCHEDULER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/github/Multithreaded-Task-Scheduler -BD:/github/Multithreaded-Task-Scheduler/build --check-stamp-file D:/github/Multithreaded-Task-Scheduler/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
