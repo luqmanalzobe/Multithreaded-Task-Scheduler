@@ -1,0 +1,1 @@
+A C++ project that simulates CPU scheduling using multithreading. It supports Round Robin and Priority algorithms, logs task execution in real time, and measures average waiting and turnaround times to analyze scheduling performance.
